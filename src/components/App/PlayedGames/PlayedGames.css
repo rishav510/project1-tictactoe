@@ -1,0 +1,32 @@
+.played-games h1{
+  margin-bottom: 50px;
+}
+
+.flex-container-playedgames{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: horizontal; 
+
+}
+.card-container{
+  box-shadow: 0 5px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: black;
+}
+
+.players{
+  display:inline;
+}
+
+.date{
+  position:relative;
+
+
+  color: gray;
+}
+
+.tie{
+  color: #444444
+}

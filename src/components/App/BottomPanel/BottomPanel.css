@@ -1,0 +1,11 @@
+.bottom-panel{
+  font-size: 1.2em;
+  background-color: rgb(0, 119, 255);
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.heading{
+  display: inline-block;
+  height: 50px;
+}

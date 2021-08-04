@@ -1,0 +1,79 @@
+.wide{
+  width: 2em;
+}
+
+.label{
+  width: 500px;
+
+}
+
+.symbol-container{
+  
+  width: 500px;
+  height: 204px;
+  
+  font-size: xx-large;
+  color: #f6f6f6;
+  margin: 0;
+
+}
+.large{
+  transform: scale(1.2);
+  color: rgb(144, 196, 255);
+}
+
+.small{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.name-textbox{
+
+  font-size: x-large;
+  top: 1.2em;
+  border-radius: 12px;
+  height: 2em;
+  margin-left: 12px;
+  outline: none;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.symbol-container button{
+
+  display: inline-block;
+
+  position:relative;
+  width: 2em;
+  height: 2em;
+  vertical-align: middle;
+  border: none;
+  background-color: #121212;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 0.5em;
+  transition-property: height, width, transform, background-color;
+  transition-timing-function: ease-in;
+  transition-duration: 0.2s;
+  
+}
+
+
+
+
+
+
+
+.start-button{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0); 
+  color: #f6f6f6;
+  font-size: 1.7em;
+  font-family: sans-serif;
+}
+
+.start-button:hover{
+  transform: scale(0.9);
+}
+

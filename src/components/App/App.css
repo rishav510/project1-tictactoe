@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.grid-container{
+ 
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 4fr 1fr;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f6f6f6;
+}
+
+.played-games{
+  padding: 10px;
+  grid-row: 1 /span 2;
+  font-family: 'Quicksand',sans-serif;
+  background-color: #fdf6f6;
+  color: rgb(42, 141, 255);
+  z-index: 2;
+  box-shadow: 0 10px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  
+}
+.played-games > h1{
+  text-align: center;
+}
+
+
+.bottom-panel{
+  padding: 10px;
+  background-color: rgb(92, 168, 255);
+  ;
+  z-index: 1;
+  color: beige;
+}
+
+.right-panel{
+
+  background-color: #f6f6f6;
+  padding: 10px;
+  font-family: sans-serif;
+
+}
+
+.right-panel h1{
+  font-size: 3em;
+  
+}
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-container{
+  margin: 2em 0;
+  
+}
+
+.form-container label{
+  font-size: 4em;
+  float: left;
+}
+
+
+.player-name-textbox{
+  height: 3em;
+  margin-left: 2em;
+  vertical-align: middle;
+  background-color: #fdf6f6;
+
+  border: 2px solid darkgray;
+  padding: 0 1em;
+  outline: none;
+  position:relative;
+  bottom: 5px;
+  font-size: x-large;
+  border-radius: 10px;
+}
+
+.player-name-textbox:focus{
+  border: 2px solid black;
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.22);
+}
+
+.new-game-wrapper p{
+  line-height: 5em;
+}
+
+.half-size{
+  font-size: 0.5em;
+  vertical-align: middle;
+  position:relative;
+  bottom: 8px;
+  margin-left: 3em;
+
+}

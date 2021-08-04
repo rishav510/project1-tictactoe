@@ -1,0 +1,20 @@
+.board{
+ 
+}
+
+.board-row{
+  display: flex;
+}
+
+.board-container{
+  margin-top: 120px;
+  display:flex;
+  justify-content: center;
+  transition-property: margin;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+
+.up{
+  margin-top: 0;
+}
